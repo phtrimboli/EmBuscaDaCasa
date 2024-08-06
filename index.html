@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da casa perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Um dia desses, dentro de um antigo diário da minha família, encontrei referências a uma casa perdida, escondida por entre colinas e bosques. O diário deixou algumas pistas intrigantes sobre como encontrá-la, e decidi seguir seus passos!</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Floresta</button>
+            <button class="btn-proximo" data-proximo="2">Investigar as Ruínas Antigas</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você inicia sua jornada na densa Floresta dos Mistérios. As árvores altas e os cantos dos pássaros criam uma atmosfera misteriosa ao seu redor.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o riacho até a clareira oculta</button>
+            <button class="btn-proximo" data-proximo="4">Voltar para casa desanimado</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Nas Ruínas de Pedra Negra, você encontra vestígios de uma antiga civilização que também procurava a casa perdida. O que você faz a seguir?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar os túneis subterrâneos</button>
+            <button class="btn-proximo" data-proximo="6">Subir ao topo da torre em ruínas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A clareira revela um mapa antigo escondido sob as raízes de uma árvore ancestral. Ele indica um caminho através das montanhas até um vale esquecido.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa até o vale</button>
+            <button class="btn-proximo" data-proximo="8">Deixar o mapa e confiar na intuição</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Desanimado, você retorna para casa, mas algo na floresta continua a chamar sua atenção nas noites seguintes...</p>
+            <button class="btn-proximo" data-proximo="9">Voltar à Floresta dos Mistérios</button>
+            <button class="btn-proximo" data-proximo="0">Esquecer a casa perdida e seguir em frente</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
